@@ -1,0 +1,32 @@
+Findings of the Project
+
+Ask of the Project
+
+NOTE:- ALL THE FINDINGS AND OUTPUTS ARE BASED ON THE FILE NAME ‘Credit Banking_Project - 1.xlsx’ THAT IS INCLUDED IN THIS ZIP FILE.
+
+Sanity Check
+
+To provide a meaningful treatment for ages less than 18, We will find the average of 18+ ages and replace the garbage ages with this average to prevent the data loss and listed in the file name ‘Credit Banking_Project - 1.xlsx’
+
+There are many customers who have spent more than their Credit Limit for any particular month. The findings of this is listed in the file name ‘exceeded_credit_limit.xlsx’
+
+
+Tasks
+
+Monthly spend of each customer:- For this task, we will aggregate the total spend of each customer per month in every year. All the findings of this task are listed in the file name ‘customer_monthly_spend(task1).xlsx’
+
+Monthly repayment of each customer:- For this task, we will aggregate the total repayments of each customer per month in every year. All the findings of this task are listed in the file name ‘customer_monthly_repayment(task2).xlsx’
+
+Highest paying 10 customers:- For this task, we will aggregate the total repayments of each customer per month in every year, and group the top 10 amount paying customers in each month of every year. All the findings of this task are listed in the file name ‘top_10_customers_monthly_repayment(task3).xlsx’
+
+People in which segment are spending more money:- For this task, we will aggregate the total spend in each segment per month in every year, and group the highest spend segment of each month in every year . All the findings of this task are listed in the file name ‘highest_spending_segment_month_wise(task4).xlsx’
+
+Which age group is spending more money?:- For this task, we will make some age groups as (18-30, 30-50, 50+). Now we will aggregate the total spend of the customers and group those amounts according to the age groups made, and finally take out the age group for every particular month with the highest spent amount on monthly basis in every year. All the findings of this task are listed in the file name ‘highest_spending_age_group_by_month(task5).xlsx’
+
+Which is the most profitable segment?:- For this task,  we will aggregate the total spend and repayments of the customers and group those amounts according to the segments, then calculate the profit using Profit=Spend - Repayment and finally take out the segment for every particular month with the highest Profit on monthly basis in every year. All the findings of this task are listed in the file name ‘most_profitable_segment_month_wise(task6).xlsx’
+
+In which category the customers are spending more money?:- For this task, we will aggregate the total spend in each Category per month in every year, and group the highest spend Category of each month in every year . All the findings of this task are listed in the file name ‘monthly_spend_category(task7).xlsx’
+
+Impose an interest rate of 2.9% for each customer for any due amount:- For this task, we will aggregate the total spend and total repayments of each customer on monthly basis per year, Then we will calculate the due amount by agg_Spend - agg_Repayment, and impose an interest of 2.9% on that due amount and consider it as Profit, Then we will add the Profits and Due amounts for each customer on monthly basis of every year and consider it as the net payable amount. All the findings of this task are listed in the file name ‘Net_payable_amount_after_interest(task8).xlsx’
+
+Monthly profit for the bank:- For this task, we will aggregate the total spend and total repayments of each customer on monthly basis per year, Then we will calculate the due amount by agg_Spend - agg_Repayment, and impose an interest of 2.9% on that due amount and consider it as Profit, and sort these profits on a monthly basis of every year. All the findings of this task are listed in the file name ‘bank's monthly profit(task9).xlsx’
